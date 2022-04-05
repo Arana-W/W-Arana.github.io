@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;		
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+section {
+	background-color: gray;
+	width: 31.2%;			
+	text-align: right;
+	border: 1px solid black;
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+span {		
+	border: 1px solid black;
+	padding: 10px 30px 10px 30px ;
+	position: relative;
+	top: 11px;
+}
+.Intel_i07, .Intel_i09, .Intel_i11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+.Intel_i07 {
+	background-color: red;
+}
+.Intel_i09 {
+	background-color: blue;
+}
+.Intel_i11 {
+	background-color: green;
+}
+p {
+	padding: 10px 10px 10px 10px;
+	position: relative;
+	text-align: left;
+}
+@media (min-width: 992px) {
+	.one, .two, .three {
+		width: 31.2%;	
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.one, .two {
+		width: 47.5%;
+	}
+	.three {
+		width: 96.5%;
+	}
+}
+@media (min-width: 112px) and (max-width: 767px) {
+	.one, .two, .three {
+		width: 96.5%;
+	}
+}	
